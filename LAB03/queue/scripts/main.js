@@ -9,3 +9,6 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 } 
 
+document.getElementById("try").onclick = function () {
+  location.href = "queue.html";
+};

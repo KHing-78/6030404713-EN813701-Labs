@@ -14,7 +14,7 @@ img {
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
-  
+
   /* Style the navbar links */
 #navbar a {
   float: left;
@@ -24,7 +24,7 @@ img {
   padding: 15px;
   text-decoration: none;
 }
-  
+
 #navbar a:hover {
   background-color: #ddd;
   color: black;
@@ -32,6 +32,23 @@ img {
 
 #navbar:hover{
   top: 0px !important;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.success {
+  background-color: aquamarine;
+  margin-left: 660px;
+  margin-bottom: 100px;
+} /* Green */
+.success:hover {
+  background-color: rgb(49, 212, 150);
 }
 
 table{
